@@ -33,7 +33,7 @@ char * board_gate_draw(char * buf, struct Board * board) {
 	char * t = (char *) malloc(1+strlen(GATE_EMOJI_FORMAT)) ;
 	assert(t) ;
 	if (board->gate_state==GATE_IS_OPEN) 
-		gate_char = OPENED_GATE_CHAR ;
+        gate_char = OPENED_GATE_CHAR ;
 	j = sprintf(t,GATE_EMOJI_FORMAT,gate_char) ;
 	for (i=0;i<j;i++) 
 		buf[i+board->gate_loc] = t[i] ;
@@ -42,7 +42,7 @@ char * board_gate_draw(char * buf, struct Board * board) {
 }
 
 char * board_snail_draw(char * buf, struct Board * board) {
-	int i ; 
+	int i ;
 	for (i=0;i<strlen(SNAIL_EMOJI);i++)
 		buf[board->snail_loc+i] = SNAIL_EMOJI[i] ;
 	return buf ;
