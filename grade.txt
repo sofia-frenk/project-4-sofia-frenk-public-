@@ -1,0 +1,25 @@
+https://x-access-token:AP4Z5DW3UZJNR32HND6RM7DFF4PBXAVPNFXHG5DBNRWGC5DJN5XF62LEZYBGLU7SWFUW443UMFWGYYLUNFXW4X3UPFYGLN2JNZ2GKZ3SMF2GS33OJFXHG5DBNRWGC5DJN5XA@github.com/csc-coursework/project-4-sofia-frenk.git
+commit d3b34956ca995935eecc324e4f62e2e4f8014e66
+Author: sofia-frenk <sofia.frenk15@gmail.com>
+Date:   Fri Oct 6 12:28:09 2023 -0400
+
+    first commit project 4
+gcc -o snail snail.c -pthread snail-util.o
+./snail -v 
+***
+*** Guess the number to open the gate for the snail! ("quit" to quit)
+***
+(snail.c,102): key 6
+_@/_____[?]_____
+__@/____[?]_____
+___@/___[?]_____
+____@/__[?]_____
+_____@/_[?]_____
+______@/[?]_____
+_______@/?]_____
+________@/]_____
+The Snail got smushed
+
+
+Grade : 5/5
+Comment : Great Job
